@@ -1,0 +1,967 @@
+2014/09/17 22:05:48 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/products/i...')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/17 22:05:50 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/products/i...')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/17 22:06:05 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/
+---
+2014/09/17 22:06:06 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/
+---
+2014/09/17 22:06:09 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop
+---
+2014/09/17 22:06:10 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop
+---
+2014/09/17 22:07:31 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/install')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:07:32 [error] [exception.CException] exception 'CException' with message 'Alias "shop.ShopModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('shop.ShopModule', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('shop.ShopModule', 'shop', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('shop')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('shop/install')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:08:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/17 22:08:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/17 22:10:41 [error] [system.db.CDbCommand] Error in preparing SQL: SET FOREIGN_KEY_CHECKS=0;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:10:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:10:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:13:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(11): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:13:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\install\start.php(22): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('start', NULL, true)
+#9 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(309): CController->render('start')
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install/install
+---
+2014/09/17 22:13:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\install\start.php(22): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('start', NULL, true)
+#9 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(309): CController->render('start')
+#10 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(318): InstallController->actionInstall()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:13:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\install\start.php(22): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('start', NULL, true)
+#9 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(309): CController->render('start')
+#10 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(318): InstallController->actionInstall()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:14:39 [error] [system.db.CDbCommand] Error in preparing SQL: SET FOREIGN_KEY_CHECKS=0;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:14:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:14:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:15:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (43)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:15:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(43): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:16:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (43)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:16:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(43): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/17 22:17:31 [error] [system.db.CDbCommand] Error in preparing SQL: SET FOREIGN_KEY_CHECKS=0;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:17:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/17 22:17:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 04:45:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 04:45:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 04:46:15 [error] [system.db.CDbCommand] Error in preparing SQL: SET FOREIGN_KEY_CHECKS=0;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:46:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:46:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 04:57:02 [error] [php] Undefined variable: sql (C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): InstallController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): InstallController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): InstallController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiidemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:57:17 [error] [system.db.CDbCommand] Error in preparing SQL: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (43)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:57:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near ",": syntax error. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (43)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:57:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near ",": syntax error. The SQL statement executed was: drop table if exists shop_category, shop_products, shop_order, shop_customer, shop_image, shop_product_variation, shop_tax, `shop_shipping_method`, shop_payment_method, shop_product_specification' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(43): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 04:58:08 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE IF NOT EXISTS `shop_product_specification` (
+							`id` int(11) NOT NULL AUTO_INCREMENT,
+							`title` varchar(255) NOT NULL,
+							`is_user_input` tinyint(1),
+							`required` tinyint(1),
+							PRIMARY KEY (`id`)
+								) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (52)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:58:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "AUTO_INCREMENT": syntax error. The SQL statement executed was: CREATE TABLE IF NOT EXISTS `shop_product_specification` (
+							`id` int(11) NOT NULL AUTO_INCREMENT,
+							`title` varchar(255) NOT NULL,
+							`is_user_input` tinyint(1),
+							`required` tinyint(1),
+							PRIMARY KEY (`id`)
+								) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (52)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 04:58:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "AUTO_INCREMENT": syntax error. The SQL statement executed was: CREATE TABLE IF NOT EXISTS `shop_product_specification` (
+							`id` int(11) NOT NULL AUTO_INCREMENT,
+							`title` varchar(255) NOT NULL,
+							`is_user_input` tinyint(1),
+							`required` tinyint(1),
+							PRIMARY KEY (`id`)
+								) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(52): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 04:59:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 04:59:47 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 05:02:21 [error] [system.db.CDbCommand] Error in preparing SQL: SET FOREIGN_KEY_CHECKS=0;
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:02:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php (30)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:02:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "SET": syntax error. The SQL statement executed was: SET FOREIGN_KEY_CHECKS=0;' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionInstall()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('install')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install/in...')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 05:05:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\install\start.php(22): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('start', NULL, true)
+#9 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(309): CController->render('start')
+#10 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(318): InstallController->actionInstall()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+---
+2014/09/18 05:05:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\install\start.php(22): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('start', NULL, true)
+#9 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(309): CController->render('start')
+#10 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\InstallController.php(318): InstallController->actionInstall()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): InstallController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/install')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/install
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/install
+---
+2014/09/18 05:05:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#17 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#21 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#31 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#32 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 05:05:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiishop'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#17 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#21 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#31 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#32 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 05:06:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiishop.shop_products' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `shop_products`.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php (13)
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php (119)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:06:09 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 05:06:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiishop.shop_products' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `shop_products`.
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php (13)
+in C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php (119)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:06:11 [error] [exception.CDbException] exception 'CDbException' with message 'The table "shop_products" for active record class "Products" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Products))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiidemo\protected\modules\shop\views\products\index.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\yiidemo\protected\modules\shop\controllers\ProductsController.php(119): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/products/index
+HTTP_REFERER=http://localhost/yiidemo/index.php?r=shop/products/index
+---
+2014/09/18 05:49:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "shop/defaultcontroller/index".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('shop/defaultcon...', NULL, true)
+#1 C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php(32): CController->render('shop/defaultcon...')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiidemo/index.php
+---
+2014/09/18 05:49:39 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "shop/defaultcontroller/index".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('shop/defaultcon...', NULL, true)
+#1 C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php(32): CController->render('shop/defaultcon...')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiidemo/index.php
+HTTP_REFERER=http://localhost/yiidemo/index.php
+---
+2014/09/18 05:50:35 [error] [php] strpos() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\CController.php:706)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(867): SiteController->getViewFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiidemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiidemo/index.php
+in C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:50:37 [error] [php] strpos() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\CController.php:706)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(867): SiteController->getViewFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiidemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiidemo/index.php
+in C:\xampp\htdocs\yiidemo\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yiidemo\index.php (13)
+2014/09/18 05:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop/defaultcontroller/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/defaultcon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/defaultcontroller/index
+---
+2014/09/18 05:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop/defaultcontroller/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/defaultcon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiidemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiidemo/index.php?r=shop/defaultcontroller/index
+---
+2014/09/21 09:54:59 [error] [php] include(slider.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii_shop\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yii_shop\yii\framework\web\CWidgetFactory.php(147): spl_autoload_call()
+#1 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(172): ProductsController->createWidget()
+#3 C:\xampp\htdocs\yii_shop\protected\modules\shop\views\layouts\shop.php(38): ProductsController->widget()
+#4 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#6 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(784): ProductsController->renderFile()
+#7 C:\xampp\htdocs\yii_shop\protected\modules\shop\controllers\ProductsController.php(119): ProductsController->render()
+#8 C:\xampp\htdocs\yii_shop\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#9 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#11 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#14 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(282): ProductsController->run()
+#18 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii_shop\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii_shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_shop/index.php?r=shop/products/index
+in C:\xampp\htdocs\yii_shop\protected\modules\shop\views\layouts\shop.php (38)
+in C:\xampp\htdocs\yii_shop\protected\modules\shop\controllers\ProductsController.php (119)
+in C:\xampp\htdocs\yii_shop\index.php (13)
+2014/09/21 09:55:02 [error] [php] include(slider.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii_shop\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yii_shop\yii\framework\web\CWidgetFactory.php(147): spl_autoload_call()
+#1 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(172): ProductsController->createWidget()
+#3 C:\xampp\htdocs\yii_shop\protected\modules\shop\views\layouts\shop.php(38): ProductsController->widget()
+#4 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii_shop\yii\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#6 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(784): ProductsController->renderFile()
+#7 C:\xampp\htdocs\yii_shop\protected\modules\shop\controllers\ProductsController.php(119): ProductsController->render()
+#8 C:\xampp\htdocs\yii_shop\yii\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#9 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#11 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#14 C:\xampp\htdocs\yii_shop\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(282): ProductsController->run()
+#18 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii_shop\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii_shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_shop/index.php?r=shop/products/index
+in C:\xampp\htdocs\yii_shop\protected\modules\shop\views\layouts\shop.php (38)
+in C:\xampp\htdocs\yii_shop\protected\modules\shop\controllers\ProductsController.php (119)
+in C:\xampp\htdocs\yii_shop\index.php (13)
+2014/10/05 11:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexString.fromCharCode(97, 98, 99)".' in C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii_shop\yii\framework\web\CController.php(270): CController->missingAction('indexString.fro...')
+#1 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(282): CController->run('indexString.fro...')
+#2 C:\xampp\htdocs\yii_shop\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/products/i...')
+#3 C:\xampp\htdocs\yii_shop\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_shop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_shop/index.php?r=shop/products/indexString.fromCharCode(97,%2098,%2099)
+---
